@@ -1,7 +1,14 @@
 # Lab 0: Introduction to Parallel Computing
-This lab compares sequential execution with shared-memory parallelism using **Pthreads** in C and the **Multiprocessing** module in Python.
+This lab compares sequential execution with shared-memory parallelism.
 
 ## Key Exercises
-- **Sequential Counting:** Basic loop-based counting.
-- **Pthreads Implementation:** Utilizing POSIX threads to split counting tasks.
-- **Performance Comparison:** Measuring execution time differences between threads and processes.
+- Sequential vs. Pthreads in C.
+- Sequential vs. Multiprocessing in Python.
+
+## How to Run
+### C Programs:
+1. Compile: `gcc count_pthread.c -lpthread -o count_pthread`
+2. Run: `./count_pthread`
+
+### Python Programs:
+1. Run: `python3 count_mp.py`
