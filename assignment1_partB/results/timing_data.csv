@@ -1,0 +1,4 @@
+ProblemSize,Processes,Time,SequentialTime,Speedup,Efficiency
+1000,1,0.000163,0.000163,1.00,1.00
+1000,2,0.000165,0.000163,0.98,0.49
+1000,4,0.000307,0.000163,0.53,0.13
